@@ -31,7 +31,7 @@ This tool helps you prepare a complete recovery message when an account is hacke
 
 1. Clone repo:
 
-git clone https://github.com/virus0hacker/account-recovery.git
+git clone https://github.com/virus0hacker/account_recovery.git
 cd account-recovery
 
 Run:
