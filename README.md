@@ -1,12 +1,15 @@
-# 🇸🇦 Account Recovery — snap: ml-ftt
+# 🇸🇦 Account Recovery
 
-**Author:** ml-ftt  
+**Author:** ViRuS-HaCkEr
 **Version:** 1.0  
 **License:** MIT
 
 A simple CLI helper that builds professional account recovery messages, copies them to the clipboard, saves them locally, and opens the official support/contact page for the selected platform.
 
-Supported platforms:
+---
+Supported platforms :
+---
+
 - Snapchat
 - Instagram
 - X (Twitter)
@@ -14,7 +17,7 @@ Supported platforms:
 
 ---
 
-## 📌 Quick summary:
+## 📌 Quick summary :
 
 This tool helps you prepare a complete recovery message when an account is hacked, suspended, disabled, or inaccessible. It:
 - Builds a ready-to-send message (English)
@@ -27,18 +30,17 @@ This tool helps you prepare a complete recovery message when an account is hacke
 
 ---
 
-## 📥 Quick start:
-
-1. Clone repo:
-
+## 📥 Quick start :
+```bash
 git clone https://github.com/virus0hacker/account_recovery.git
+```
+---
+Run :
+---
 
-cd account-recovery
-
-Run:
-
+```bash
 python account_recovery.py
-
+```
 
 Follow the prompts: choose a platform, enter account identifier (username/email/phone), describe the issue briefly, and enter a preferred contact. The message will be copied to the clipboard (or saved to recovery_message.txt) and the official support page will open in your browser
 
@@ -56,33 +58,35 @@ CHANGELOG.md — simple changelog template.
 
 CONTRIBUTING.md — short contribution guide.
 
-
+---
 ⚖️ Legal & ethical notice:
+---
 
 Use this tool only for lawful, authorized recovery attempts on accounts you own or manage. Misuse (unauthorized access, harassment, fraud) is your responsibility and may be illegal.
 
+---
 
 استخدم هذه الأداة فقط لاسترجاع حسابات تملكها أو تملك تفويضًا قانونيًا لإدارتها. أي استخدام خاطئ أو غير قانوني يقع على عاتقك.
+---
 
-
-🔧 Customization:
+---
+🔧 Customization :
+---
 
 You can easily add more platforms or update support URLs in the PLATFORM_SUPPORT dictionary inside account_recovery.py. If you want an Arabic message template or extra templates (e.g., for "hacked" vs "suspended"), send a request and I'll add them.
 
-
-
-🧰 Contributing:
-
+---
+🧰 Contributing :
+---
 See CONTRIBUTING.md for simple guidelines.
 
-
+---
 📄 License:
+---
 
+MIT License :
 
-```
-MIT License
-
-Copyright (c) 2025 ml-ftt
+Copyright (c) 2025
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
