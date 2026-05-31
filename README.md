@@ -42,24 +42,8 @@ Run :
 python account_recovery.py
 ```
 
-Follow the prompts: choose a platform, enter account identifier (username/email/phone), describe the issue briefly, and enter a preferred contact. The message will be copied to the clipboard (or saved to recovery_message.txt) and the official support page will open in your browser
-
-Files included
-
-account_recovery.py — main script (CLI, colored output, clipboard copy).
-
-README.md — this file.
-
-LICENSE — MIT license.
-
-.gitignore — recommended ignores.
-
-CHANGELOG.md — simple changelog template.
-
-CONTRIBUTING.md — short contribution guide.
-
 ---
-⚖️ Legal & ethical notice:
+⚖️ Legal & ethical notice :
 ---
 
 Use this tool only for lawful, authorized recovery attempts on accounts you own or manage. Misuse (unauthorized access, harassment, fraud) is your responsibility and may be illegal.
@@ -83,7 +67,7 @@ You can easily add more platforms or update support URLs in the PLATFORM_SUPPORT
 See CONTRIBUTING.md for simple guidelines.
 
 ---
-📄 License:
+📄 License :
 ---
 
 MIT License
