@@ -61,10 +61,6 @@ Use this tool only for lawful, authorized recovery attempts on accounts you own 
 
 You can easily add more platforms or update support URLs in the PLATFORM_SUPPORT dictionary inside account_recovery.py. If you want an Arabic message template or extra templates (e.g., for "hacked" vs "suspended"), send a request and I'll add them.
 
----
-🧰 Contributing :
----
-See CONTRIBUTING.md for simple guidelines.
 
 ---
 📄 License :
