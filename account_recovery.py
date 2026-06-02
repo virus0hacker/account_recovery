@@ -149,7 +149,7 @@ def save_message(platform, identifier, message):
 
 def main():
     banner()
-    cprint("🟢 Author: ViRuS ", C.DIM)
+    cprint("🟢 Author: ViRuS ")
     cprint("This tool builds recovery messages for hacked or locked accounts.\n", C.WHITE)
 
     platform = choose_platform()
