@@ -1,17 +1,10 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
-Account Recovery (Account_recovery)
-Author: ml-ftt
-License: MIT (see LICENSE)
+Account Recovery
+Author: ViRuS-HaCkEr
 
 Supported platforms: Snapchat, Instagram, X (Twitter), WhatsApp
 """
-
-# ───────────────────────────────────────────────────────────────
-#  MIT License (summary)
-#  Copyright (c) 2025 ml-ftt
-# ───────────────────────────────────────────────────────────────
 
 import os
 import sys
@@ -19,7 +12,6 @@ import datetime
 import webbrowser
 import textwrap
 
-# === Color Setup ===
 class C:
     RESET = "\033[0m"
     BOLD = "\033[1m"
@@ -36,7 +28,6 @@ class C:
 def cprint(msg, color=C.RESET, bold=False):
     print(f"{C.BOLD if bold else ''}{color}{msg}{C.RESET}")
 
-# === Banner ===
 def banner():
     os.system('cls' if os.name == 'nt' else 'clear')
     banner_art = f"""
@@ -47,13 +38,12 @@ def banner():
   / ___ \ (_| (_| (_) | |_| | | | | |_  |_____| |  _ <  __/ (_| (_) \ V /  __/ |  | |_| |
  /_/   \_\___\___\___/ \__,_|_| |_|\__|         |_| \_\___|\___\___/ \_/ \___|_|   \__, |
                                                                                    |___/ 
-{C.BRIGHT_GREEN}                     🇸🇦  Account Recovery — snap: ml-ftt
+{C.BRIGHT_GREEN}                     🇸🇦  Account Recovery — twitter: @h3fq1
 ───────────────────────────────────────────────────────────────────────────────
 {C.RESET}
 """
     print(banner_art)
 
-# === Clipboard handling ===
 try:
     import tkinter as tk
     _root = tk.Tk()
@@ -68,7 +58,7 @@ except Exception:
             f.write(text)
         cprint("[!] Clipboard not available — message saved to recovery_message.txt", C.YELLOW)
 
-# === Platform data ===
+
 PLATFORMS = {
     "snapchat": {
         "name": "Snapchat",
@@ -92,7 +82,7 @@ PLATFORMS = {
     }
 }
 
-# === Core Functions ===
+
 def choose_platform():
     cprint("Available Platforms:", C.CYAN, bold=True)
     for i, k in enumerate(PLATFORMS, 1):
@@ -156,10 +146,10 @@ def save_message(platform, identifier, message):
         f.write(message)
     return fname
 
-# === Main ===
+
 def main():
     banner()
-    cprint("🟢 Author: ml-ftt  |  License: MIT", C.DIM)
+    cprint("🟢 Author: ViRuS  |  License: MIT", C.DIM)
     cprint("This tool builds recovery messages for hacked or locked accounts.\n", C.WHITE)
 
     platform = choose_platform()
@@ -179,7 +169,7 @@ def main():
     cprint("\nPaste the message into the contact form and attach your proofs.", C.BRIGHT_GREEN)
     cprint("Good luck 🙏  — stay safe online!", C.BRIGHT_GREEN, bold=True)
 
-# === Run ===
+
 if __name__ == "__main__":
     try:
         main()
